@@ -1,0 +1,4 @@
+packages:
+  - play # 存放组件功能测试的代码
+  - docs # 存放组件文档 使用vitepress 
+  - "packages/**" #packages目录下都是包

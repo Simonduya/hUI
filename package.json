@@ -1,0 +1,19 @@
+{
+  "name": "hUI",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@simon/components": "workspace:*",
+    "@simon/theme-chalk": "workspace:*",
+    "@simon/utils": "workspace:*",
+    "typescript": "^5.2.2",
+    "vue": "^3.3.4"
+  }
+}
