@@ -14,7 +14,7 @@ node_modules下会多出一些依赖
 `pnpm tsc --init`
 配置tsconfig.json
 
-### 搭建monorepo 
+### 搭建monorepo    
 在本仓库下管理多个仓库
 在一个项目下管理多个项目
 新建pnpm-workspace.yaml
@@ -23,3 +23,17 @@ node_modules下会多出一些依赖
 使用第三方模块的方式进行引用
 `pnpm install @simon/components -w`
 `pnpm install @simon/theme-chalk -w`
+
+## 初始化play文件
+`pnpm create vite play --template vue-ts`
+
+## 添加全局的类型限制
+vue-shim.d.ts
+
+## 运行代码
+在play文件下执行npm run dev (vite)
+但是希望在根目录下执行代码
+配置外层的package.json
+`  "scripts": {
+    "dev": "pnpm -C play dev"
+  },`
