@@ -55,3 +55,6 @@ components/icon
 使用插件定义组件的名字 `pnpm install unplugin-vue-define-options -D -w`, 
 在play/vite.config.ts中引入该包`import DefineOptions from 'unplugin-vue-define-options/vite'
 `
+
+## 为icon添加类型, 设置为全局组件
+在icon/index.ts导出组件 组件需要暴露一个install方法
